@@ -1,0 +1,16 @@
+{
+  "name": "novel-finder-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Finds novels, manga, manhwa, manhua, and web/light novels matching a plain-language description, with a CLI and a small web UI",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "find": "node src/cli.mjs",
+    "serve": "node src/server.mjs",
+    "test": "node --test src/*.test.mjs"
+  },
+  "license": "MIT"
+}
